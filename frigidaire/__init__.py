@@ -36,6 +36,7 @@ class FrigidaireException(Exception):
 class Destination(str, Enum):
     AIR_CONDITIONER = "AC"
     DEHUMIDIFIER = "DH"
+    NEW_DEHUMIDIFIER = "HUSKY"
 
 
 class Setting(str, Enum):
